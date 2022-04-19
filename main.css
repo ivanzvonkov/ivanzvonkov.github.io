@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+    margin:0 auto;
+    max-width: 500px;
+    padding-bottom: 1em;
+}
+h1, h2 {
+    font-family: 'Lora';
+    
+}
+h1 {
+    margin-block-start: 0em;
+    font-size: 2em;
+}
+h2 {
+    margin-block-start: 2em;
+    font-size: 1.5em;
+}
+
+img {
+    max-width: 400px;
+}
+
+#profile {
+    border-radius: 50%;
+    max-width: 200px;
+}
