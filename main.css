@@ -4,7 +4,7 @@ body {
 }
 div {
     margin:0 auto;
-    max-width: 500px;
+    max-width: 50em;
     padding-bottom: 1em;
 }
 h1, h2 {
@@ -21,7 +21,11 @@ h2 {
 }
 
 img {
-    max-width: 400px;
+    max-width: 30em;
+}
+
+iframe {
+    max-width: 35em;
 }
 
 #profile {
