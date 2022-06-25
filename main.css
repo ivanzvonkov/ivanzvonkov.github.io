@@ -23,13 +23,19 @@ p {
     font-size: 1.25em;
 }
 
-img {
+#crop-mask-gif {
+    max-width: 25em;
+}
+
+#cropharvest {
     max-width: 30em;
 }
 
-iframe {
-    max-width: 35em;
+#three-maps-gif {
+    max-width: 45em;
 }
+
+
 
 #profile {
     border-radius: 50%;
