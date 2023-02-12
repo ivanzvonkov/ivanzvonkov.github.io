@@ -5,19 +5,19 @@
     <base target="_blank">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
     <link rel="icon" href="data:image/svg+xml,
         <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
             <text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>">
     <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   
   <body>
-    <div>
-        <img src="me.jpg" id="profile">
-        <h1>Ivan Zvonkov</h1>
-        <p>
+    <div id="header">
+        <div><img src="me.jpg" id="profile"></div>
+        <div>
+            <h1>Ivan Zvonkov</h1>
             <a href="mailto:ivan.zvonkov@gmail.com" rel="noopener noreferrer">Email</a>
             &nbsp;
             <a href="https://github.com/ivanzvonkov">Github</a>
@@ -27,81 +27,78 @@
             <a href="https://www.linkedin.com/in/ivanzvonkov/">LinkedIn</a>
             &nbsp;
             <a href="https://docs.google.com/document/d/1p4jZWhBRyE4WvTyv3v9LQ7wr2j48mb3XrujQgGWuYKA/export?format=pdf">CV</a>
-        </p>
-
-        <p>Machine learning at NASA Harvest, Grad Student at University of Maryland<br>
-        Interests: Building ML systems, use-inspired research, nature<br>
-        <details>
-            <summary>Full Bio</summary>
-            <p style="text-align: left;">
-                I am a Machine Learning Engineer at NASA Harvest where I work 
-                on scaling up machine learning research relating to agriculture and food security.
-                I am also working towards an M.S. in Computer Science at the University of Maryland.
-                <br><br>
-                Before joining NASA Harvest, I worked at a fintech start-up developing machine learning 
-                and data science solutions for automating trade finance document processing.
-                I completed a BEng in Software Engineering at the University of Western Ontario where 
-                I developed an award-winning forest fire forecasting project for my capstone.
+            <p>
+                Machine learning at NASA Harvest, <br>Grad Student at University of Maryland<br>
+                Interests: ML systems, use-inspired research, nature
             </p>
-        </details>
+            <details>
+        <summary>Full Bio</summary>
+        <p>
+            I am a Machine Learning Engineer at NASA Harvest where I work 
+            on scaling up machine learning research relating to agriculture and food security.
+            I am also working towards an M.S. in Computer Science at the University of Maryland.
+            <br><br>
+            Before joining NASA Harvest, I worked at a fintech start-up developing machine learning 
+            and data science solutions for automating trade finance document processing.
+            I completed a BEng in Software Engineering at the University of Western Ontario where 
+            I developed an award-winning forest fire forecasting project for my capstone.
         </p>
+    </details>
+        </div>
+    </div>
+    
+    
+    </p>
+    
 
-        <h2>Active Projects</h2>
-        <img src="quick-map3.gif" alt="3maps-gif" id="three-maps-gif">
-        <p>
-            OpenMapFlow: Rapid map creation with machine learning and earth observation data.
-            <br>
-            <a href="https://pypi.org/project/openmapflow/">pip</a>
-            &nbsp;
-            <a href="https://github.com/nasaharvest/openmapflow">code</a>
-        </p>
-        <p>
-            Crop-mask: An end-to-end workflow for generating high resolution cropland maps.
-            &nbsp;
-            <a href="https://github.com/nasaharvest/crop-mask">code</a>
-        </p>
-        
+    <h2>Publications</h2>
+    <p>
+        Zvonkov, I., Tseng, G., Nakalembe, C., and Kerner, H. (2023). 
+        OpenMapFlow: A Library for Rapid Map Creation with Machine Learning and Remote Sensing Data.
+        <br><em>To appear in Proceedings of the 2023 AAAI Conference on Artificial Intelligence.</em>
+        <br>
+        <a href="https://pypi.org/project/openmapflow/">pip</a>
+        &nbsp;
+        <a href="https://github.com/nasaharvest/openmapflow">code</a>
+        &nbsp;
+    </p>
+    <p>
+        Tseng, G., Zvonkov, I., Nakalembe, C., Kerner, H. (2021). 
+        CropHarvest: a global satellite dataset for crop type classification. 
+        <br><em>Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks</em>
+        <br>
+        <a href="https://openreview.net/forum?id=JtjzUXPEaCu">openreview</a> 
+        &nbsp;
+        <a href="https://pypi.org/project/cropharvest/">pip</a>
+        &nbsp;
+        <a href="https://github.com/nasaharvest/cropharvest">code</a>
+    </p>
 
-        <h2>Publications</h2>
-
-        <img src="https://github.com/nasaharvest/cropharvest/blob/main/diagrams/labels_spatial_distribution.png?raw=true" alt="cropharvest" id="cropharvest">
-        <p>
-            CropHarvest: A global dataset for crop-type classification. Gabriel Tseng,
-            <br>Ivan Zvonkov, Catherine Nakalembe, Hannah Kerner, 2021. 
-            NeurIPS. 
-            &nbsp;
-            <a href="https://openreview.net/forum?id=JtjzUXPEaCu">openreview</a> 
-            &nbsp;
-            <a href="https://pypi.org/project/cropharvest/">pip</a>
-            &nbsp;
-            <a href="https://github.com/nasaharvest/cropharvest">code</a>
-        </p>
-
-        <h2>News</h2>
-        <p>
-            June 20, 2022: (CVPR Tutorial): Machine Learning for Remote Sensing: Agriculture and Food Security.
-            Presented with Dr. Hannah Kerner and Dr. Catherine Nakalembe.
-            &nbsp;
-            <a href="https://nasaharvest.github.io/cvpr2022.html">link</a>
-        </p>
-        <p>
-            May 27, 2022: (Talk) CropHarvest: a global satellite dataset for crop type classification.
-            <br>Presented at Living Planet Symposium.
-        </p>
-        <p>
-            May 25, 2022: (Talk) Helmets Labeling Crops: Obtaining large datasets through citizen-science.
-            <br>Presented at Living Planet Symposium with Dr. Catherine Nakalembe. 
-        </p>
-        <p>
-            Apr 13, 2022: (Talk) Making cropland maps with machine learning at scale. 
-            <br>Presented at Makerere AI Lab, RCMRD, Kenya Space Agency. 
-            &nbsp;
-            <a href="https://youtu.be/85da2hZqobA">video</a>
-        </p>
-        <p>
-            Sep 2, 2021: (Talk) Data Efficient Land Classification. 
-            <br>Talk presented at AMLD Africa with Gabriel Tseng. 
-        </p>
-    </div> 
+    <h2>News</h2>
+    <p>
+        June 20, 2022: (CVPR Tutorial): Machine Learning for Remote Sensing: Agriculture and Food Security.
+        Presented with Dr. Hannah Kerner and Dr. Catherine Nakalembe.
+        &nbsp;
+        <a href="https://nasaharvest.github.io/cvpr2022.html">link</a>
+    </p>
+    <p>
+        May 27, 2022: (Talk) CropHarvest: a global satellite dataset for crop type classification.
+        <br>Presented at Living Planet Symposium.
+    </p>
+    <p>
+        May 25, 2022: (Talk) Helmets Labeling Crops: Obtaining large datasets through citizen-science.
+        <br>Presented at Living Planet Symposium with Dr. Catherine Nakalembe. 
+    </p>
+    <p>
+        Apr 13, 2022: (Talk) Making cropland maps with machine learning at scale. 
+        <br>Presented at Makerere AI Lab, RCMRD, Kenya Space Agency. 
+        &nbsp;
+        <a href="https://youtu.be/85da2hZqobA">video</a>
+    </p>
+    <p>
+        Sep 2, 2021: (Talk) Data Efficient Land Classification. 
+        <br>Talk presented at AMLD Africa with Gabriel Tseng. 
+    </p>
+   
   </body>
 </html>
