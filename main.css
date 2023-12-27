@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #222222;
     margin:0 auto;
-    max-width: 44em;
+    max-width: 38em;
     padding: 1em;
 }
 h1 { margin-block-start: 0em; margin-block-end: 0em;}
@@ -22,4 +22,8 @@ footer {
     margin-top: 2em;
     font-size: 10px;
     color: #999999;
+}
+
+img {
+    max-width: 34em;
 }
