@@ -14,7 +14,7 @@ h2 { margin-block-start: 1em; }
     .container {flex-direction: column}
     .container div {padding: 0em}
 }
-#profile { border-radius: 50%; max-width: 200px; }
+#profile { border-radius: 50%; max-width: 120px; }
 
 strong {font-weight: 600;}
 
