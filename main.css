@@ -2,19 +2,22 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #222222;
     margin:0 auto;
-    max-width: 38em;
+    max-width: 840px;
     padding: 1em;
 }
-h1 { margin-block-start: 0em; margin-block-end: 0em;}
-h2 { margin-block-start: 1em; }
+h1 { margin-block-start: 0em; margin-block-end: 0em; font-weight: 500; font-size: 3.5em; }
+h2 { font-weight: 500; font-size: 2em; text-align: center; }
 
 .container {display: flex;}
-.container div {padding: 1em}
-@media (max-width: 600px) {
-    .container {flex-direction: column}
-    .container div {padding: 0em}
+
+@media (max-width: 880px) {
+    h2 { text-align: left; }
 }
-#profile { border-radius: 50%; max-width: 120px; }
+
+@media (max-width: 720px) {
+    .container {flex-direction: column}
+}
+#profile { max-width: 190px; }
 
 strong {font-weight: 600;}
 
@@ -24,6 +27,26 @@ footer {
     color: #999999;
 }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 1em
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 20px; 
+    grid-template-columns: repeat(auto-fit, 410px);
+}
+
 img {
-    max-width: 34em;
+    max-width: 100%;
+    height: auto;
 }
